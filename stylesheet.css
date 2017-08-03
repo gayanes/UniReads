@@ -1,0 +1,42 @@
+#profile {
+	border-radius: 100%;
+}
+
+img {
+	height: 100px;
+	width: 100px;
+}
+
+.classes {
+	height: 200px;
+	width: 200px;
+	background-color: cyan;
+	border: 4px double #008b8b;
+	text-align: center;
+	border-radius: 25%;
+	padding: 40px;
+	float: left;
+	margin: 10px;
+}
+
+button:hover {
+	background-color: #008b8b;
+	border-color: cyan;
+}
+
+#header {
+	padding: 10px;
+}
+
+#content {
+	padding: 10px;
+}
+
+#points {
+	border: 2px double black;
+	margin: 10px;
+}
+
+/*body {
+	background-color: lightgrey;
+}*/
