@@ -1,0 +1,35 @@
+.assignment {
+	border: 2px solid black;
+	padding: 10px;
+
+
+}
+
+
+/*#another{
+	border-radius:5%;
+	width: 400px;
+  height: 180px;
+  padding: 2px;
+  border: 2px solid ;
+ 
+  text-align: left;
+  float:right;
+  text-decoration-line: center;
+}*/
+table{
+
+	border-radius:5%;
+	width: 480px;
+  height: 180px;
+  padding: 10px;
+  border: 2px solid ;
+  margin: 5px;
+ 
+  text-align: left;
+  border-spacing:5px;
+
+}
+th{
+	padding:10px;
+}

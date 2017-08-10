@@ -1,5 +1,6 @@
 #profile-img {
 	border-radius: 100%;
+	float:right;
 }
 
 img {
@@ -30,10 +31,12 @@ button:hover {
 
 #header {
 	padding: 10px;
+
 }
 
 #content {
 	padding: 10px;
+	border-spacing: 2px;
 }
 
 th {
