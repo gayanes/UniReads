@@ -1,4 +1,4 @@
-#profile {
+#profile-img {
 	border-radius: 100%;
 }
 
@@ -19,6 +19,10 @@ img {
 	margin: 10px;
 }
 
+.classes.add {
+	border-style: dashed;
+}
+
 button:hover {
 	background-color: #008b8b;
 	border-color: cyan;
@@ -32,11 +36,43 @@ button:hover {
 	padding: 10px;
 }
 
-#points {
-	border: 2px double black;
+th {
+	background-color: skyblue;
+	border-bottom: 2px solid black;
+	height: 50px;
+	text-align: center;
 	margin: 10px;
 }
 
-/*body {
-	background-color: lightgrey;
-}*/
+td {
+	background-color: #00e5e5;
+	border-bottom: 2px solid black;
+}
+
+th, td {
+	/*width: 450px;*/
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.header {
+	border-left: none;
+	border-right: none;
+	background-color: transparent;
+}
+
+#logo {
+	width: 20px;
+}
+
+#points {
+	width: 500px;
+}
+
+#profile {
+	width: 20px;
+}
+
+table {
+	table-layout: fixed;
+}
