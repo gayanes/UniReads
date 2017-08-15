@@ -5,6 +5,9 @@
 
 }
 
+h3{
+	float:right;
+}
 
 /*#another{
 	border-radius:5%;
@@ -32,4 +35,8 @@ table{
 }
 th{
 	padding:10px;
+}
+img{
+	width:150px;
+	height:150px;
 }
