@@ -1,0 +1,36 @@
+{
+	"article": {
+		"title": "a very interesting story", 
+		"text": "gredr4frrtgtrgffrgb fs",
+		"image": "UniReads.png"
+	},
+	"questions": [
+		{
+			"question": "Please answer A",
+			"answers": {
+				"A": "This is A",
+				"B": "This is B",
+				"C": "This is C"
+			},
+			"correct_answer": "A"
+		},
+		{
+			"question": "Please answer C",
+			"answers": {
+				"A": "This is A",
+				"B": "This is B",
+				"C": "This is C"
+			},
+			"correct_answer": "C"
+		},
+		{
+			"question": "Please answer B",
+			"answers": {
+				"A": "This is A",
+				"B": "This is B",
+				"C": "This is C"
+			},
+			"correct_answer": "B"
+		}
+	]
+}

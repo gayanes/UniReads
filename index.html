@@ -10,20 +10,31 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<!-- Latest compiled JavaScript -->
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+			var data={
+				"name": "Gayane",
+				"points": 1210
+			};
+			function loadData(){
+				var pointsElement=document.getElementById("points");
+				pointsElement.getElementsByTagName("h3")[0].innerHTML = data.points
+				document.getElementById("name").innerHTML = data.name;
+			}
+		</script>
 		<title>UniReads</title>
 	</head>
-	<body>
+	<body onload="loadData()">
 		<table>
 			<tr>
 				<th class="header" id="logo">
 					<img src="UniReads.png">
 				</th>
 				<th class="header" id="points">
-					<h3>1200 Points</h3>
+					<h3></h3>
 				</th>
 				<th class="header" id="profile">
 					<img src="Icon.png" id="profile-img">
-					<h5><strong>student1</strong></h5>
+					<h5 id="name"></h5>
 				</th>
 			</tr>
 			<tr>
