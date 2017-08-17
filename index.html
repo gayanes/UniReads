@@ -10,9 +10,20 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<!-- Latest compiled JavaScript -->
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+			var data={
+				"name": "Gayane",
+				"points": 1210
+			};
+			function loadData(){
+				var pointsElement=document.getElementById("points");
+				pointsElement.getElementsByTagName("h3")[0].innerHTML = data.points
+				document.getElementById("name").innerHTML = data.name;
+			}
+		</script>
 		<title>UniReads</title>
 	</head>
-	<body>
+	<body onload="loadData()">
 		<table>
 			<tr>
 				
@@ -27,15 +38,15 @@
 
 
 				<th class="header" id="points">
-					<a href="leaderboard.html">	<h3>  1200 Points </h3></a>
+					<a href="leaderboard.html">	<h3></h3></a>
 				</th>
 				
 				
 
 
 				<th class="header" id="profile">
-				<a href="user-Profile.html">	<img src="Icon.png" id="profile-img"></a>
-					<h5><strong>student1</strong></h5>
+					<img src="Icon.png" id="profile-img">
+					<h5 id="name"></h5>
 				</th>
 			</tr>
 			
