@@ -6,14 +6,36 @@
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
-		<!-- jQuery library -->
+		<!-- Database: Firebase -->
+		<script>
+	 		var config = {
+				apiKey: "AIzaSyBNO3Le6bfDb_Pn8bjKeKY0xmqJxUx1FSg",
+				authDomain: "unireads.firebaseapp.com",
+				databaseURL: "https://unireads.firebaseio.com",
+				projectId: "unireads",
+				storageBucket: "",
+				messagingSenderId: "1013644358541"
+			};
+			firebase.initializeApp(config);
+		</script>
+		<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-auth.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-database.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-messaging.js"></script>
+		<script>
+		  var config = {
+		    // ...
+		  };
+		  firebase.initializeApp(config);
+		</script>
+				<!-- jQuery library -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<!-- Latest compiled JavaScript -->
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script type="text/javascript">
 			var data={
-				"name": "Gayane",
-				"points": 1210
+				"name": "student1",
+				"points": 1380
 			};
 			function loadData(){
 				var pointsElement=document.getElementById("points");
@@ -21,6 +43,7 @@
 				document.getElementById("name").innerHTML = data.name;
 			}
 		</script>
+		<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
 		<title>UniReads</title>
 	</head>
 	<body onload="loadData()">
