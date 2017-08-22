@@ -24,9 +24,13 @@ img {
 	border-style: dashed;
 }
 
-button:hover {
+button.classes:hover {
 	background-color: #008b8b;
-	border-color: cyan;
+	border-color: none;
+}
+
+div.btn-group {
+	display: inline-block;
 }
 
 #header {
@@ -40,27 +44,27 @@ button:hover {
 }
 
 th {
-	background-color: skyblue;
-	border-bottom: 2px solid black;
+	background-color: transparent;/*
+	border-bottom: 2px solid black;*/
 	height: 50px;
 	text-align: center;
 	margin: 10px;
 }
 
 td {
-	background-color: #00e5e5;
+	background-color: transparent;/*
 	border-bottom: 2px solid black;
-}
+*/}
 
-th, td {
-	/*width: 450px;*/
+/*th, td {
+	/*width: 450px;
 	border-left: 2px solid black;
 	border-right: 2px solid black;
-}
+}*/
 
-.header {
+.header {/*
 	border-left: none;
-	border-right: none;
+	border-right: none;*/
 	background-color: transparent;
 }
 
@@ -78,4 +82,105 @@ th, td {
 
 table {
 	table-layout: fixed;
+}
+#logo-img{
+	height: 130px;
+	width: 130px;
+	float:left;
+
+}
+
+
+
+
+
+
+
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    display: none;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.slideout-menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 256px;
+  min-height: 100vh;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  z-index: 0;
+  display: none;
+}
+
+.slideout-menu-left {
+  left: 0;
+}
+
+.slideout-menu-right {
+  right: 0;
+}
+
+.slideout-panel {
+  position: relative;
+  z-index: 1;
+  will-change: transform;
+  background-color: #FFF; /* A background-color is required */
+  min-height: 100vh;
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+  overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+  display: block;
 }
