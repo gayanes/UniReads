@@ -1,6 +1,13 @@
 body{
 	background:#a74ac7;
+}
 
+#profile-img {
+	border-radius: 100%;
+	float: right;
+}
 
-
+img {
+	height: 100px;
+	width: 100px;
 }

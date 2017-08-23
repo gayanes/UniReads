@@ -52,19 +52,10 @@ th {
 }
 
 td {
-	background-color: transparent;/*
-	border-bottom: 2px solid black;
-*/}
+	background-color: transparent;
+}
 
-/*th, td {
-	/*width: 450px;
-	border-left: 2px solid black;
-	border-right: 2px solid black;
-}*/
-
-.header {/*
-	border-left: none;
-	border-right: none;*/
+.header {
 	background-color: transparent;
 }
 
@@ -83,14 +74,12 @@ td {
 table {
 	table-layout: fixed;
 }
-#logo-img{
+/*#logo-img{
 	height: 130px;
 	width: 130px;
 	float:left;
 
-}
-
-
+}*/
 
 
 
