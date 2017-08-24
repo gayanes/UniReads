@@ -1,5 +1,9 @@
-body{
+nav {
 	background:#a74ac7;
+}
+
+.navbar-brand {
+	height: 130px;
 }
 
 #profile-img {
