@@ -5,13 +5,25 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		
+		<link rel= 'stylesheet' type='text/css' href='classroom.css'>		
 		<!-- jQuery library -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<!-- Latest compiled JavaScript -->
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script>
+			
+			var MyScore = 0;
+
+			function myFunction() {
+				
+				
+					MyScore += 5;
+					console.log(MyScore);
+				
+				document.getElementById("demo").innerHTML = MyScore;
+			}
+		</script>
 		<title>UniReads</title>
-		<link rel= 'stylesheet' type='text/css' href='classroom.css'>
 	</head>
 	<body>
 		<nav class="navbar navbar-light bg-faded row">
@@ -96,5 +108,17 @@
 
 </table> </center>
 
+
+
+
+
+
+
+
+
+
+
+
 	</body>
+
 </html>
