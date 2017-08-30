@@ -8,7 +8,7 @@ img {
 	width: 100px;
 }
 
-.classes {
+.article {
 	height: 190px;
 	width: 190px;
 	background-color: transparent;
@@ -19,74 +19,14 @@ img {
 	margin: 10px;
 }
 
-.classes.add {
-	border-style: dashed;
-}
-
-/*button.classes:hover {
-	background-color: #008b8b;
-	border-color: none;
-}*/
-
-div.btn-group {
-	display: inline-block;
-}
-
-#header {
-	padding: 10px;
-
-}
-
-#content {
-	padding: 10px;
-	border-spacing: 2px;
-}
-
-th {
-	background-color: transparent;/*
-	border-bottom: 2px solid black;*/
-	height: 50px;
-	text-align: center;
-	margin: 10px;
-}
-
-td {
-	background-color: transparent;/*
-	border-bottom: 2px solid black;
-*/}
-
-/*th, td {
-	/*width: 450px;
-	border-left: 2px solid black;
-	border-right: 2px solid black;
-}*/
-
-.header {/*
-	border-left: none;
-	border-right: none;*/
-	background-color: transparent;
-}
-
-#logo {
-	width: 20px;
-	
-}
-#points {
-	width: 500px;
-}
-
-#profile {
-	width: 20px;
-}
-
 table {
 	table-layout: fixed;
 }
+
 #logo-img{
 	height: 100px;
 	width: 100px;
 	float:left;
-
 }
 
 nav {
