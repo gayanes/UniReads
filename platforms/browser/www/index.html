@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+	
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<!-- Database: Firebase -->
+		<script>
+	 		var config = {
+				apiKey: "AIzaSyBNO3Le6bfDb_Pn8bjKeKY0xmqJxUx1FSg",
+				authDomain: "unireads.firebaseapp.com",
+				databaseURL: "https://unireads.firebaseio.com",
+				projectId: "unireads",
+				storageBucket: "",
+				messagingSenderId: "1013644358541"
+			};
+			firebase.initializeApp(config);
+		</script>
+		<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-auth.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-database.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase-messaging.js"></script>
+		<script>
+		  var config = {
+		    // ...
+		  };
+		  firebase.initializeApp(config);
+		</script>
+				<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+			var data={
+				"name": "student1",
+				"points": 1380
+			};
+			function loadData(){
+				var pointsElement=document.getElementById("points");
+				pointsElement.getElementsByTagName("h3")[0].innerHTML = data.points
+				document.getElementById("name").innerHTML = data.name;
+			}
+		</script>
+		<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+		<title>UniReads</title>
+	</head>
+	<body onload="loadData()">
+
+		<nav class="navbar navbar-light bg-faded row">
+			<div class="col-xs-2">	
+				<a class="navbar-brand" href="index.html"><img src="UniReads.png" id="logo-img"></a>
+			</div>
+			<div class="col-xs-4" style="text-align: center;">
+				<a href="leaderboard.html"><h1>1200</h1></a>
+			</div>
+			<div class="col-xs-2">
+				<img src="Icon.png" id="profile-img">
+			</div>
+		</nav>
+
+		<table>
+			<tr>
+				<td style="vertical-align:top">
+
+						<div id="mySidenav" class="sidenav">
+						  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+						  <a href="article_category.html">Science</a>
+						 <a href="#">Politics</a>
+						<a href="#">History</a>
+						<a href="#">literature</a>
+					</div>
+
+					<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+					<!-- <div class="btn-group">
+						<button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown"><img src='https://i.stack.imgur.com/Fw96Z.png'>
+						</button>
+						<ul class="dropdown-menu">
+							<li class="dropdown-item"><a href="article test.html">English</a></li>
+							<li class="dropdown-item"><a href="#">Science</a></li>
+							<li class="dropdown-item"><a href="#">Math</a></li>
+							<li class="dropdown-item"><a href="#">Spanish</a></li>
+							<li class="dropdown-item"><a href="#">French</a></li>
+							<li class="dropdown-item"><a href="#">Music</a></li>
+							<li class="dropdown-item"><a href="#">Health</a></li>
+						</ul>
+					</div> -->
+					</div>
+					<div id="mySidenav" class="sidenav">
+						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+						<a href="#">Science</a>
+						<a href="#">Politics</a>
+						<a href="#">History</a>
+						<a href="#">literature</a>
+					</div>
+				</td>
+				<td colspan="2">
+					<a href="classroom.html"><button class="classes">
+						<h3>Chemistry</h3>
+						<h4>Ms.Goldstein</h4>
+						<h5>Period 7</h5>
+					</button></a>
+					<button class="classes">
+						<h3>AP Seminar</h3>
+						<h4>Ms. Le</h4>
+						<h5>Period 2</h5>
+					</button>
+					<button class="classes">
+						<h3>AP Lang</h3>
+						<h4>Ms. Brown</h4>
+						<h5>Period 4</h5>
+					</button>
+					<button class="classes">
+						<h3>U.S History</h3>
+						<h4>Mr. Flecher</h4>
+						<h5>Period</h5>
+					</button>
+					<button class="classes">
+						<h3>Class</h3>
+						<h4>Teacher</h4>
+						<h5>Period</h5>
+					</button>
+					<button class="classes">
+						<h3>Class</h3>
+						<h4>Teacher</h4>
+						<h5>Period</h5>
+					</button>
+					<button class="classes">
+						<h3>Class</h3>
+						<h4>Teacher</h4>
+						<h5>Period</h5>
+					</button>
+					<button class="classes">
+						<h3>Class</h3>
+						<h4>Teacher</h4>
+						<h5>Period</h5>
+					</button>
+					<button class="classes add">
+						<img src="add button.png">
+					</button>
+				</td>
+			</tr>
+		
+
+		</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.display = "block";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.display = "none";
+}
+</script>
+
+
+
+
+
+
+
+	</body>
+</html>

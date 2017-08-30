@@ -1,0 +1,30 @@
+.row{
+	border-spacing: 20px;
+	width:500;
+	height:500;
+
+
+}
+
+#logo-img, #profile-img {
+	width:100px ;
+	height: 100px;
+}
+
+#article.img{
+
+	width: 150;
+	height:500;
+
+
+
+}
+
+button{
+	background-color:none;
+	
+
+
+}
+
+
