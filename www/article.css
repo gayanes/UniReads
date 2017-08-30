@@ -1,5 +1,5 @@
 .row{
-	border-spacing: 20px;
+	/*border-spacing: 20px;*/
 	width:500;
 	height:500;
 }
@@ -25,5 +25,8 @@
 button {
 	background-color:none;
 }
-
-
+	
+.article {
+	padding-left: 2%;
+	padding-right: 2%;
+}
