@@ -4,29 +4,47 @@
 	height:500;
 }
 
-#profile-img {
-	border-radius: 100%;
-	height: 130px;
-	width: 130px;
-	float:right;
+.article {
+  padding-left: 2%;
+  padding-right: 2%;
 }
+
+
+#profile-img {
+  border-radius: 100%;
+  height: 130px;
+  width: 130px;
+  float:right;
+}
+
+
+
+
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+
+
+
 
 #logo-img{
-	height: 100px;
-	width: 100px;
-	float:left;
+  height: 100px;
+  width: 100px;
+  float:left;
 }
 
-#article.img {
-	width: 150;
-	height:500;
+nav {
+  background:#a74ac7;
+}
+
+.navbar-brand {
+  height: 130px;
 }
 
 button {
 	background-color:none;
 }
 	
-.article {
-	padding-left: 2%;
-	padding-right: 2%;
-}

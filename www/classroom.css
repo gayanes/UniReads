@@ -34,11 +34,6 @@ th{
 	padding:10px;
 }
 
-img{
-	width:100px;
-	height:100px;
-}
-
 #profile-img {
   border-radius: 100%;
   height: 130px;
@@ -46,10 +41,27 @@ img{
   float:right;
 }
 
+img {
+  height: 100px;
+  width: 100px;
+}
+
+
+
+
+
 #logo-img{
   height: 100px;
   width: 100px;
   float:left;
+}
+
+nav {
+  background:#a74ac7;
+}
+
+.navbar-brand {
+  height: 130px;
 }
 
 
