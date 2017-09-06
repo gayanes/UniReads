@@ -19,6 +19,7 @@ img {
 	padding: 40px;
 	float: left;
 	margin: 10px;
+
 }
 
 table {
@@ -76,6 +77,11 @@ nav {
     margin-left: 50px;
 }
 
+h4{
+
+
+    font-size:15px;
+}
 
 
 
