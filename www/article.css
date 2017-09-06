@@ -5,10 +5,26 @@
 }
 
 .article {
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
+#article.img{
+
+  width:170px;
+  height:100px;
+
+
+}
+
+#article2.img{
+  width:200px;
+  height:200px;
+  float:left;
+
+
+
+}
 
 #profile-img {
   border-radius: 100%;
@@ -17,14 +33,20 @@
   float:right;
 }
 
+p{
+
+  font-size:20px;
 
 
-
-
-img {
-  height: 100px;
-  width: 100px;
 }
+
+#name{
+  float:right;
+}
+
+
+
+
 
 
 
