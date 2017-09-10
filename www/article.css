@@ -69,4 +69,14 @@ nav {
 button {
 	background-color:none;
 }
+body{
+  background-image: url("Purple_balloons.png");
+    
+   
+    background-position: center;
+   
+    background-attachment: fixed;
+    
+    border-radius:100%;
+}
 	

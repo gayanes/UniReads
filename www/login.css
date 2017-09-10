@@ -53,3 +53,14 @@ img.logo {
     padding: 10px 18px;
     background-color: #f44336;
 }
+
+body{
+    background-image: url("Purple_balloons.png");
+    
+   
+    background-position: center;
+   
+    background-attachment: fixed;
+    
+    border-radius:100%;
+}

@@ -34,3 +34,14 @@ img {
   padding-left: 5%;
   padding-right: 5%;
 }
+
+body{
+	background-image: url("Purple_balloons.png");
+    
+   
+    background-position: center;
+   
+    background-attachment: fixed;
+    
+    border-radius:100%;
+}
