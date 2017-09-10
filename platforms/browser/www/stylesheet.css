@@ -1,19 +1,43 @@
-#profile-img {
-	border-radius: 100%;
-  height: 130px;
-  width: 130px;
-	float:right;
+
+body{
+	background-image: url("https://orig12.deviantart.net/714a/f/2010/282/e/c/anime_background___classroom_by_azuki_sato-d30e97m.jpg");
+    
+    background-position: center;
+   
+    background-attachment: fixed;
+    border-radius:100%;
 }
 
-#logo-img{
-  height: 100px;
-  width: 100px;
-  float:left;
+
+
+#profile-img {
+	border-radius: 100%;
+	height: 130px;
+	width: 130px;
+	float:right;
 }
 
 img {
 	height: 100px;
 	width: 100px;
+}
+
+
+
+
+
+#logo-img{
+	height: 100px;
+	width: 100px;
+	float:left;
+}
+
+nav {
+	background:#a74ac7;
+}
+
+.navbar-brand {
+	height: 130px;
 }
 
 .classes {
@@ -84,7 +108,7 @@ table {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #99ccff;
     overflow-x: hidden;
     padding-top: 60px;
 }
@@ -108,6 +132,8 @@ table {
     font-size: 36px;
     margin-left: 50px;
 }
+
+
 
 
 
