@@ -1,12 +1,15 @@
 
 body{
-	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/c9/68/fa/c968fadfee805527badad505c7158f3c.jpg");
+	background-image: url("https://www.clker.com/cliparts/1/0/a/4/1378196290346484415purple%20balloons.jpg");
     
    
-   	 
+    background-position: center;
+   
     background-attachment: fixed;
+    
     border-radius:100%;
 }
+
 
 
 
