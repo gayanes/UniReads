@@ -60,13 +60,3 @@ th, td {
 .last{
 	border-bottom: 2px solid black;
 }
-body{
-	background-image: url("Purple_balloons.png");
-    
-   
-    background-position: center;
-   
-    background-attachment: fixed;
-    
-    border-radius:100%;
-}
