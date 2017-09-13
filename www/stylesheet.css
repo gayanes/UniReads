@@ -1,6 +1,14 @@
+body{
+	
+	background-image: url("https://media2.giphy.com/media/CfbhFIQpoVa12/200w.webp#24-grid2");
+    
+     background-repeat: repeat;
+   
+    background-position: center;
+   	background-image: cover;
+    background-attachment: fixed;
 
-
-
+}
 
 
 #profile-img {
